@@ -1,0 +1,33 @@
+.home-section {
+    
+    background-color: #54ce1c;
+    text-align: center;
+}
+.home-section h4 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #6289b1;
+}
+.about-section {
+    
+    background-color: #b45d81;
+    text-align: center;
+}
+.about-section h4 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #3d909b;
+}
+.contact-section {
+    
+    background-color: #35107a;
+    text-align: center;
+}
+.contact-section h4 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #662929;
+}
+p{
+    color:orange;
+}
