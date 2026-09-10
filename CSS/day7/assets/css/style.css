@@ -28,6 +28,7 @@ html{
     gap: 10px;
     justify-content: center;
     text-align: center;
+    
 
 } 
 
@@ -43,6 +44,7 @@ img{
     width: 200px;
     height: 200px;
     padding: 10px;
+     
 }
 .box{
     padding: 10px;
@@ -52,10 +54,9 @@ img{
     text-align: start;
     justify-content: center;
 }
-.container:hover{
-    transition: all 2s;
 
-}
-.container::before{
+.container:hover{
+    background-color: rgb(51, 63, 59);
     
 }
+
