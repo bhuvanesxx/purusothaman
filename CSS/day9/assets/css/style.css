@@ -1,0 +1,309 @@
+*{
+    padding: 0%;
+    margin:0%;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Graphik, Arial, sans-serif;
+}
+.parent{
+    background-color: white;
+    display: flex;
+    gap:120px;
+   border:solid  rgb(218, 218, 217)1px;
+   height:60px;
+   position: fixed;
+   z-index: 3;
+}
+.icon{
+    padding:20px;
+    display: flex;
+    gap: 50px;
+}
+.image{
+ width:120px;
+ height:120px;
+ position: relative;
+ bottom:50px; 
+}
+.nav{
+    
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+}
+.login{
+    padding: 18px;
+    display: flex;
+    gap:10px;
+}
+.login > a{
+    color: black;
+    text-decoration: none;
+}
+
+.butt{
+background-color: rgb(214, 51, 51);
+color: white;
+height:33px;
+border:none;
+text-align: center;
+border-radius: 7px;
+padding:15px;
+padding-top:10px;
+position: relative;
+bottom:5px;
+
+}
+.butt:hover{
+    background-color: brown;
+}
+.nav > a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: red;
+}
+.tempt{
+    position: relative;
+    top:60px; 
+    padding: 20px;
+    text-align: center;
+}
+.tempt > h4 {
+    padding: 10px;
+    font-size:42px;
+}
+.tempt > p{
+        font-size:22.5px;
+
+    
+}
+.btn{ 
+   position: relative;
+     top:60px;
+    padding: 25px ;
+    display: flex;
+    gap:20px;
+    margin-left: 75px;
+   
+
+}
+button{
+     cursor: pointer;
+}
+.btn > button{
+    padding:8px 18px;
+    font-size:15px;
+    border-radius:20px;
+    border:solid rgba(149, 146, 146, 0.212) 1px;
+}
+.btw{
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+.box{
+    
+   
+    padding: 12px;
+    position: relative;
+    top:50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:13px;
+    justify-items: center;
+}
+.child{
+    background-color:white;
+    width:240px;
+    height:170px;
+    padding:20px;
+    border: solid rgb(218, 218, 217) 1px; 
+    border-radius: 10px;
+     display: grid;
+    gap:20px;
+    cursor: pointer;
+   
+}
+.child:hover{
+    border:solid black 1px;
+    transition:all 1s;
+
+}
+.child > h1{
+    font-size: 24px;
+}
+.child > p{
+    font-size: 15px;
+}
+.child1{
+    background-color:rgb(240, 122, 43);
+    width:240px;
+    height:170px;
+    padding:20px;
+    border: solid rgb(218, 218, 217) 1px; 
+    border-radius: 10px;
+    display: grid;
+    gap:20px;
+    cursor: pointer;
+   
+}
+.child1:hover{
+    border:solid black 1px;
+    transition:all 1s;
+
+}
+.child1 > h1{
+    font-size: 24px;
+}
+.child1 > p{
+    font-size: 15px;
+}
+.work{
+    font-size:24px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top:80px;
+}
+.col{
+    
+padding:10px;
+display: flex;
+gap:10px;
+justify-content:space-around;
+position: relative;
+top:115px;
+
+}
+.utf{
+    background-color: white;
+    width:380px;
+    height:500px;
+    cursor: pointer;
+    border-radius:15px;
+
+}
+.utf > img{
+    border-radius:15px;
+    width:380px;
+    height:230px
+}
+.utf > h1{
+    padding: 20px;
+    font-size:22px;
+}
+.utf > p{
+    padding:20px;
+    font-size:17px;
+}
+.utf:hover{
+    transform:scale(1.1);
+}
+.webp{
+    background-color: rgb(248, 180, 172);
+    margin:20px;
+    position:relative;
+    top: 60px;
+    display: flex;
+    gap:100px;
+    border-radius:20px;
+
+}
+.web > img{
+    width: 500px;
+    height:500px;
+}
+.webone{
+    display: grid;
+    margin:80px;
+}
+.webone > h1{
+    font-size:36px;
+    padding:40px;
+    padding-left:10px;
+}
+.webone > p{
+    font-size:22px;
+    padding:10px;
+}
+.webone > button {
+    font-size:20px;
+    background-color: gold;
+    width:200px;
+    padding:12px 34px;
+    position: relative;
+    top:30px;
+    border: none;
+    border-radius:10px;
+}
+.trust {
+    text-align: center;
+    padding: 70px 30px;
+}
+.trust h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.trust > p {
+    max-width: 850px;
+    margin: auto;
+    color: #666;
+    line-height: 1.6;
+}
+.security {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+footer {
+    background: #292426;
+    color: white;
+    padding: 60px 70px 25px;
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 35px;
+}
+.footer-content h3 {
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+.footer-content a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.stores button {
+    display: block;
+    width: 150px;
+    padding: 9px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.footer-bottom {
+    border-top: 1px solid #777;
+    margin-top: auto;
+    padding-top: 25px;
+}
+.footer-bottom p {
+    margin-left: auto;
+    font-size: 12px;
+}
