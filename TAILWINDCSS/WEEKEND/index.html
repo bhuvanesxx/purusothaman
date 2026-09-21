@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link rel="icon" href="https://cdncontent.decathlon.in/svelte/favicon.ico" />
+		<title>SportSpace | Sporting goods and sportswear</title>
+	</head>
+	<body class="bg-slate-50 text-slate-900 antialiased">
+		<header class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
+			<div class="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 sm:px-6 lg:px-8">
+				<a href="#" class="shrink-0" aria-label="SportSpace home">
+					<div class="flex items-center gap-2">
+						<span class="flex h-10 w-10 items-center justify-center rounded-xl bg-[#3643ba] text-xl font-black italic text-white">S</span>
+						<span class="hidden text-xl font-black tracking-tight text-[#3643ba] sm:block">SPORTSPACE</span>
+					</div>
+				</a>
+
+				<form class="relative flex-1" role="search">
+					<label for="search" class="sr-only">Search products</label>
+					<input id="search" type="search" placeholder="Search for products, sports or brands" class="h-11 w-full rounded-full border border-slate-200 bg-slate-100 px-12 text-sm outline-none transition placeholder:text-slate-500 focus:border-[#3643ba] focus:bg-white focus:ring-2 focus:ring-[#3643ba]/20" />
+					<span class="absolute left-4 top-2.5 text-lg text-slate-500" aria-hidden="true">⌕</span>
+				</form>
+
+				<nav class="hidden items-center gap-5 text-sm font-semibold lg:flex" aria-label="Account navigation">
+					<a href="#" class="transition hover:text-[#3643ba]">Sign in</a>
+					<a href="#" class="transition hover:text-[#3643ba]">My store</a>
+					<a href="#" class="transition hover:text-[#3643ba]">Support</a>
+					<a href="#" class="transition hover:text-[#3643ba]">Wishlist</a>
+				</nav>
+				<button type="button" class="relative rounded-full p-2 text-2xl transition hover:bg-slate-100" aria-label="Shopping cart">
+					🛒<span class="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-[#3643ba] text-xs font-bold text-white">2</span>
+				</button>
+			</div>
+
+			<nav class="mx-auto flex max-w-7xl gap-7 overflow-x-auto px-4 pb-3 text-sm font-bold sm:px-6 lg:px-8" aria-label="Product categories">
+				<a href="#products" class="whitespace-nowrap text-[#3643ba]">All sports</a>
+				<a href="#products" class="whitespace-nowrap transition hover:text-[#3643ba]">Men</a>
+				<a href="#products" class="whitespace-nowrap transition hover:text-[#3643ba]">Women</a>
+				<a href="#products" class="whitespace-nowrap transition hover:text-[#3643ba]">Kids</a>
+				<a href="#products" class="whitespace-nowrap transition hover:text-[#3643ba]">Fitness</a>
+				<a href="#products" class="whitespace-nowrap transition hover:text-[#3643ba]">Running</a>
+				<a href="#products" class="whitespace-nowrap transition hover:text-[#3643ba]">Outdoor</a>
+			</nav>
+		</header>
+
+		<main>
+			<section class="mx-auto max-w-7xl px-4 pt-5 sm:px-6 lg:px-8">
+				<div class="relative min-h-[360px] overflow-hidden rounded-3xl bg-[#102b4e]">
+					<img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1800&q=85" alt="Runner enjoying an outdoor workout" class="absolute inset-0 h-full w-full object-cover object-center opacity-75" />
+					<div class="relative flex min-h-[360px] max-w-xl flex-col justify-center px-7 py-12 text-white sm:px-12">
+						<p class="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-cyan-200">Move your way</p>
+						<h1 class="text-4xl font-black leading-tight sm:text-6xl">Gear up for your next adventure.</h1>
+						<p class="mt-4 max-w-md text-base text-slate-100 sm:text-lg">Reliable sports gear for every body, every goal and every kind of weekend.</p>
+						<a href="#products" class="mt-7 inline-flex w-fit items-center rounded-full bg-white px-6 py-3 text-sm font-bold text-[#3643ba] transition hover:bg-cyan-100">Shop now <span class="ml-2" aria-hidden="true">→</span></a>
+					</div>
+				</div>
+			</section>
+
+			<section id="products" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+				<div class="mb-7 flex items-end justify-between gap-4">
+					<div>
+						<p class="text-sm font-bold uppercase tracking-widest text-[#3643ba]">Popular picks</p>
+						<h2 class="mt-1 text-3xl font-black tracking-tight sm:text-4xl">Ready for every move</h2>
+					</div>
+					<a href="#" class="hidden text-sm font-bold text-[#3643ba] sm:block">View all products →</a>
+				</div>
+
+				<div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+					<article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+						<div class="relative overflow-hidden bg-slate-100"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=85" alt="White sports t-shirt" class="h-64 w-full object-cover transition duration-500 group-hover:scale-105" /><span class="absolute left-3 top-3 rounded-full bg-white px-3 py-1 text-xs font-bold">BESTSELLER</span></div>
+						<div class="p-5"><p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Running</p><h3 class="mt-1 text-lg font-bold">Active Dry T-shirt</h3><p class="mt-2 text-sm text-slate-500">Lightweight comfort for daily training.</p><div class="mt-4 flex items-center justify-between"><span class="text-xl font-black">₹799</span><button class="rounded-full bg-[#3643ba] px-4 py-2 text-sm font-bold text-white transition hover:bg-[#293496]">Add</button></div></div>
+					</article>
+
+					<article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+						<div class="overflow-hidden bg-slate-100"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=85" alt="Red running shoe" class="h-64 w-full object-cover transition duration-500 group-hover:scale-105" /></div>
+						<div class="p-5"><p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Running</p><h3 class="mt-1 text-lg font-bold">Run Cushion Shoes</h3><p class="mt-2 text-sm text-slate-500">Soft landing and confident grip.</p><div class="mt-4 flex items-center justify-between"><span class="text-xl font-black">₹2,499</span><button class="rounded-full bg-[#3643ba] px-4 py-2 text-sm font-bold text-white transition hover:bg-[#293496]">Add</button></div></div>
+					</article>
+
+					<article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+						<div class="overflow-hidden bg-slate-100"><img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=85" alt="Black hiking backpack" class="h-64 w-full object-cover transition duration-500 group-hover:scale-105" /></div>
+						<div class="p-5"><p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Hiking</p><h3 class="mt-1 text-lg font-bold">Trail Backpack 20L</h3><p class="mt-2 text-sm text-slate-500">Carry your essentials comfortably.</p><div class="mt-4 flex items-center justify-between"><span class="text-xl font-black">₹1,999</span><button class="rounded-full bg-[#3643ba] px-4 py-2 text-sm font-bold text-white transition hover:bg-[#293496]">Add</button></div></div>
+					</article>
+
+					<article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+						<div class="overflow-hidden bg-slate-100"><img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=800&q=85" alt="Runner wearing sportswear" class="h-64 w-full object-cover transition duration-500 group-hover:scale-105" /></div>
+						<div class="p-5"><p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Fitness</p><h3 class="mt-1 text-lg font-bold">Training Essentials</h3><p class="mt-2 text-sm text-slate-500">Built for your strongest sessions.</p><div class="mt-4 flex items-center justify-between"><span class="text-xl font-black">₹1,299</span><button class="rounded-full bg-[#3643ba] px-4 py-2 text-sm font-bold text-white transition hover:bg-[#293496]">Add</button></div></div>
+					</article>
+				</div>
+			</section>
+		</main>
+
+		<footer class="border-t border-slate-200 bg-white">
+			<div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8"><p>© 2026 SportSpace. Made for movement.</p><div class="flex gap-5"><a href="#" class="hover:text-[#3643ba]">Help</a><a href="#" class="hover:text-[#3643ba]">Delivery</a><a href="#" class="hover:text-[#3643ba]">Returns</a></div></div>
+		</footer>
+	</body>
+</html>
