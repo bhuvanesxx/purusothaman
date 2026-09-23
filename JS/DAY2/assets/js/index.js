@@ -1,310 +1,243 @@
 
-var firstName;
-var age;
-var cityName;
-var courseName;
-var salary;
+
+var varFirstName = "Arun";
+var varLastName = "Kumar";
+var varCityName = "Chennai";
+var varCountryName = "India";
+var varCourseName = "JavaScript";
+var varCollegeName = "Kamaraj College";
+var varCompanyName = "Google";
+var varJobTitle = "Developer";
+var varLanguageName = "English";
+var varSubjectName = "Python";
+
+console.log(varFirstName);
+console.log(varLastName);
+console.log(varCityName);
+console.log(varCountryName);
+console.log(varCourseName);
+console.log(varCollegeName);
+console.log(varCompanyName);
+console.log(varJobTitle);
+console.log(varLanguageName);
+console.log(varSubjectName);
 
 
-let lastName;
-let phoneNumber;
-let collegeName;
-let emailAddress;
-let studentId;
 
-console.log(firstName);
-console.log(age);
-console.log(cityName);
-console.log(courseName);
-console.log(salary);
+var varAge = 22;
+var varSalary = 25000;
+var varMark = 85;
+var varPrice = 500;
+var varQuantity = 10;
+var varYear = 2026;
+var varTotalMarks = 450;
+var varPercentage = 90;
+var varPiValue = 3.14;
+var varNumberOfDays = 30;
 
-console.log(lastName);
-console.log(phoneNumber);
-console.log(collegeName);
-console.log(emailAddress);
-console.log(studentId);
+console.log(varAge);
+console.log(varSalary);
+console.log(varMark);
+console.log(varPrice);
+console.log(varQuantity);
+console.log(varYear);
+console.log(varTotalMarks);
+console.log(varPercentage);
+console.log(varPiValue);
+console.log(varNumberOfDays);
 
-var firstName = "Arun";
-var age = 22;
-var cityName = "Chennai";
-var courseName = "JavaScript";
-var salary = 25000;
-var mark = 85;
-var phoneNumber = "9876543210";
-var isStudent = true;
-var countryName = "India";
-var productPrice = 500;
 
-console.log(firstName);
-console.log(age);
-console.log(cityName);
-console.log(courseName);
-console.log(salary);
-console.log(mark);
-console.log(phoneNumber);
-console.log(isStudent);
-console.log(countryName);
-console.log(productPrice);
 
-let lastName = "Kumar";
-let studentAge = 21;
-let collegeName = "Kamaraj College";
-let subjectName = "Python";
-let monthlySalary = 30000;
-let totalMarks = 450;
-let mobileNumber = "9876543211";
-let isPassed = true;
-let stateName = "Tamil Nadu";
-let productQuantity = 10;
+var varIsStudent = true;
+var varIsPassed = false;
+var varIsLoggedIn = true;
+var varIsAvailable = false;
+var varIsActive = true;
 
-console.log(lastName);
-console.log(studentAge);
-console.log(collegeName);
-console.log(subjectName);
-console.log(monthlySalary);
-console.log(totalMarks);
-console.log(mobileNumber);
-console.log(isPassed);
-console.log(stateName);
-console.log(productQuantity);
+console.log(varIsStudent);
+console.log(varIsPassed);
+console.log(varIsLoggedIn);
+console.log(varIsAvailable);
+console.log(varIsActive);
 
-const userName = "Purusothaman";
-const userAge = 22;
-const city = "Thoothukudi";
-const course = "Computer Science";
-const annualSalary = 300000;
-const percentage = 85;
-const emailAddress = "user@gmail.com";
-const isAvailable = true;
-const country = "India";
-const piValue = 3.14;
 
-console.log(userName);
-console.log(userAge);
-console.log(city);
-console.log(course);
-console.log(annualSalary);
-console.log(percentage);
-console.log(emailAddress);
-console.log(isAvailable);
-console.log(country);
-console.log(piValue);
-//var starting here
-var firstName = "Arun";
-var lastName = "Kumar";
-var cityName = "Chennai";
-var countryName = "India";
-var courseName = "JavaScript";
-var collegeName = "Kamaraj College";
-var companyName = "Google";
-var jobTitle = "Developer";
-var languageName = "English";
-var subjectName = "Python";
 
-console.log(firstName);
-console.log(lastName);
-console.log(cityName);
-console.log(countryName);
-console.log(courseName);
-console.log(collegeName);
-console.log(companyName);
-console.log(jobTitle);
-console.log(languageName);
-console.log(subjectName);
+var varMiddleName = null;
+var varPhoneNumber = null;
+var varAddress = null;
 
-var age = 22;
-var salary = 25000;
-var mark = 85;
-var price = 500;
-var quantity = 10;
-var year = 2026;
-var totalMarks = 450;
-var percentage = 90;
-var piValue = 3.14;
-var numberOfDays = 30;
+console.log(varMiddleName);
+console.log(varPhoneNumber);
+console.log(varAddress);
 
-console.log(age);
-console.log(salary);
-console.log(mark);
-console.log(price);
-console.log(quantity);
-console.log(year);
-console.log(totalMarks);
-console.log(percentage);
-console.log(piValue);
-console.log(numberOfDays);
 
-var isStudent = true;
-var isPassed = false;
-var isLoggedIn = true;
-var isAvailable = false;
-var isActive = true;
 
-console.log(isStudent);
-console.log(isPassed);
-console.log(isLoggedIn);
-console.log(isAvailable);
-console.log(isActive);
+var varFirstValue;
+var varSecondValue;
+var varThirdValue;
 
-var middleName = null;
-var phoneNumber = null;
-var address = null;
+console.log(varFirstValue);
+console.log(varSecondValue);
+console.log(varThirdValue);
 
-console.log(middleName);
-console.log(phoneNumber);
-console.log(address);
 
-var firstValue;
-var secondValue;
-var thirdValue;
 
-console.log(firstValue);
-console.log(secondValue);
-console.log(thirdValue);
 
-//let
-let firstName = "Arun";
-let lastName = "Kumar";
-let cityName = "Chennai";
-let countryName = "India";
-let courseName = "JavaScript";
-let collegeName = "Kamaraj College";
-let companyName = "Google";
-let jobTitle = "Developer";
-let languageName = "English";
-let subjectName = "Python";
+let letFirstName = "Vijay";
+let letLastName = "Raj";
+let letCityName = "Madurai";
+let letCountryName = "India";
+let letCourseName = "Python";
+let letCollegeName = "Anna College";
+let letCompanyName = "Microsoft";
+let letJobTitle = "Designer";
+let letLanguageName = "Tamil";
+let letSubjectName = "Java";
 
-console.log(firstName);
-console.log(lastName);
-console.log(cityName);
-console.log(countryName);
-console.log(courseName);
-console.log(collegeName);
-console.log(companyName);
-console.log(jobTitle);
-console.log(languageName);
-console.log(subjectName);
+console.log(letFirstName);
+console.log(letLastName);
+console.log(letCityName);
+console.log(letCountryName);
+console.log(letCourseName);
+console.log(letCollegeName);
+console.log(letCompanyName);
+console.log(letJobTitle);
+console.log(letLanguageName);
+console.log(letSubjectName);
 
-let age = 22;
-let salary = 25000;
-let mark = 85;
-let price = 500;
-let quantity = 10;
-let year = 2026;
-let totalMarks = 450;
-let percentage = 90;
-let piValue = 3.14;
-let numberOfDays = 30;
+let letAge = 21;
+let letSalary = 30000;
+let letMark = 90;
+let letPrice = 1000;
+let letQuantity = 20;
+let letYear = 2025;
+let letTotalMarks = 500;
+let letPercentage = 95;
+let letPiValue = 3.14;
+let letNumberOfDays = 31;
 
-console.log(age);
-console.log(salary);
-console.log(mark);
-console.log(price);
-console.log(quantity);
-console.log(year);
-console.log(totalMarks);
-console.log(percentage);
-console.log(piValue);
-console.log(numberOfDays);
+console.log(letAge);
+console.log(letSalary);
+console.log(letMark);
+console.log(letPrice);
+console.log(letQuantity);
+console.log(letYear);
+console.log(letTotalMarks);
+console.log(letPercentage);
+console.log(letPiValue);
+console.log(letNumberOfDays);
 
-let isStudent = true;
-let isPassed = false;
-let isLoggedIn = true;
-let isAvailable = false;
-let isActive = true;
 
-console.log(isStudent);
-console.log(isPassed);
-console.log(isLoggedIn);
-console.log(isAvailable);
-console.log(isActive);
 
-let middleName = null;
-let phoneNumber = null;
-let address = null;
+let letIsStudent = true;
+let letIsPassed = false;
+let letIsLoggedIn = true;
+let letIsAvailable = false;
+let letIsActive = true;
 
-console.log(middleName);
-console.log(phoneNumber);
-console.log(address);
+console.log(letIsStudent);
+console.log(letIsPassed);
+console.log(letIsLoggedIn);
+console.log(letIsAvailable);
+console.log(letIsActive);
 
-let firstValue;
-let secondValue;
-let thirdValue;
 
-console.log(firstValue);
-console.log(secondValue);
-console.log(thirdValue);
+let letMiddleName = null;
+let letPhoneNumber = null;
+let letAddress = null;
 
-//const
+console.log(letMiddleName);
+console.log(letPhoneNumber);
+console.log(letAddress);
 
-const firstName = "Arun";
-const lastName = "Kumar";
-const cityName = "Chennai";
-const countryName = "India";
-const courseName = "JavaScript";
-const collegeName = "Kamaraj College";
-const companyName = "Google";
-const jobTitle = "Developer";
-const languageName = "English";
-const subjectName = "Python";
 
-console.log(firstName);
-console.log(lastName);
-console.log(cityName);
-console.log(countryName);
-console.log(courseName);
-console.log(collegeName);
-console.log(companyName);
-console.log(jobTitle);
-console.log(languageName);
-console.log(subjectName);
 
-const age = 22;
-const salary = 25000;
-const mark = 85;
-const price = 500;
-const quantity = 10;
-const year = 2026;
-const totalMarks = 450;
-const percentage = 90;
-const piValue = 3.14;
-const numberOfDays = 30;
+let letFirstValue;
+let letSecondValue;
+let letThirdValue;
 
-console.log(age);
-console.log(salary);
-console.log(mark);
-console.log(price);
-console.log(quantity);
-console.log(year);
-console.log(totalMarks);
-console.log(percentage);
-console.log(piValue);
-console.log(numberOfDays);
+console.log(letFirstValue);
+console.log(letSecondValue);
+console.log(letThirdValue);
 
-const isStudent = true;
-const isPassed = false;
-const isLoggedIn = true;
-const isAvailable = false;
-const isActive = true;
 
-console.log(isStudent);
-console.log(isPassed);
-console.log(isLoggedIn);
-console.log(isAvailable);
-console.log(isActive);
 
-const middleName = null;
-const phoneNumber = null;
-const address = null;
 
-console.log(middleName);
-console.log(phoneNumber);
-console.log(address);
+const constFirstName = "Purusothaman";
+const constLastName = "Kumar";
+const constCityName = "Thoothukudi";
+const constCountryName = "India";
+const constCourseName = "Computer Science";
+const constCollegeName = "Kamaraj College";
+const constCompanyName = "Amazon";
+const constJobTitle = "Full Stack Developer";
+const constLanguageName = "English";
+const constSubjectName = "Database";
 
-const firstValue = undefined;
-const secondValue = undefined;
-const thirdValue = undefined;
+console.log(constFirstName);
+console.log(constLastName);
+console.log(constCityName);
+console.log(constCountryName);
+console.log(constCourseName);
+console.log(constCollegeName);
+console.log(constCompanyName);
+console.log(constJobTitle);
+console.log(constLanguageName);
+console.log(constSubjectName);
 
-console.log(firstValue);
-console.log(secondValue);
-console.log(thirdValue);
+
+
+const constAge = 22;
+const constSalary = 35000;
+const constMark = 88;
+const constPrice = 750;
+const constQuantity = 15;
+const constYear = 2026;
+const constTotalMarks = 480;
+const constPercentage = 92;
+const constPiValue = 3.14;
+const constNumberOfDays = 30;
+
+console.log(constAge);
+console.log(constSalary);
+console.log(constMark);
+console.log(constPrice);
+console.log(constQuantity);
+console.log(constYear);
+console.log(constTotalMarks);
+console.log(constPercentage);
+console.log(constPiValue);
+console.log(constNumberOfDays);
+
+
+
+const constIsStudent = true;
+const constIsPassed = false;
+const constIsLoggedIn = true;
+const constIsAvailable = false;
+const constIsActive = true;
+
+console.log(constIsStudent);
+console.log(constIsPassed);
+console.log(constIsLoggedIn);
+console.log(constIsAvailable);
+console.log(constIsActive);
+
+
+
+const constMiddleName = null;
+const constPhoneNumber = null;
+const constAddress = null;
+
+console.log(constMiddleName);
+console.log(constPhoneNumber);
+console.log(constAddress);
+
+
+const constFirstValue = undefined;
+const constSecondValue = undefined;
+const constThirdValue = undefined;
+
+console.log(constFirstValue);
+console.log(constSecondValue);
+console.log(constThirdValue);
