@@ -1,0 +1,16 @@
+var a = 10;
+var b = 20;
+var add = a+b;
+var sub = a-b;
+var multi = a*b;
+var divi = a/b;
+var remainder = a%b;
+console.log(add);
+console.log(sub);
+console.log(multi);
+console.log(divi);
+console.log(remainder);
+
+
+
+
